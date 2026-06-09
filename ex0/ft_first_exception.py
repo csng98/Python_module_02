@@ -12,7 +12,7 @@ def test_temperature() -> None:
             print(f"Temperature is now {temp_int}°C\n")
         except ValueError:
             print(f"Caught input_temperature error: invalid "
-              f"literal for int() with base 10: '{t}'\n")
+                  f"literal for int() with base 10: '{t}'\n")
     print("All tests completed - program didn't crash!")
 
 
